@@ -173,9 +173,20 @@ const chapterPages = [
     text: [
       'You have much to dwell on, and much to decide.',
       'Merrew has called together when men she has spare to hunt down Dijigin, and determine what exactly he did with the Magnetron.',
-      'Outside, you can hear the back-and-forths of the dragons dueling it out somewhere on the island.',
+      'Distantly, you can hear the back-and-forths of the dragons dueling it out somewhere on the island.',
       'You know you have allies that will heed the call for aid if you ask them to, but how to best put their talents to use, and in what little time you ' +
       'have while the dragonic struggle wrecks larger and larger portions of the island is up to you.',
+      'This new knowlege sits in you, fresh and strange, but also familiar. And, at the edges of your mind, if you concentrate hard enough, you feel like you can ' +
+      'sense something... someone else. Somebody familiar, somebody like you, but... elsewhere? Elsewhen? You\'re not certain.',
+      'The air is cool outside, and a gentle breeze rustles the grass outside.',
+    ],
+    promptText: 'Continue',
+  },
+  {
+    background: { bottom: 'rgb(230, 169, 131)', top: 'rgb(59, 184, 255)' },
+    text: [
+      'You stand up.',
+      'And head onward.',
     ],
   },
 ];

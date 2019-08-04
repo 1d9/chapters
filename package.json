@@ -1,0 +1,23 @@
+{
+  "name": "chapters",
+  "version": "1.0.0",
+  "description": "chapters",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1d9/chapters.git"
+  },
+  "author": "lukekaalim (luke@kaal.im)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1d9/chapters/issues"
+  },
+  "homepage": "https://github.com/1d9/chapters#readme",
+  "devDependencies": {
+    "rollup": "^1.18.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "preact": "^10.0.0-rc.1"
+  }
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.quarry-background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s;
+}
+
+.quarry-content {
+  max-width: 896px;
+  height: 100%;
+  background-color: rgb(215, 215, 215);
+  box-shadow: inset 0 0 15px 10px #00000026;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+}
+.chapter-page-title {
+  font-family: 'Crimson Pro', serif;
+}
+
+.chapter-event-text {
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  width: 100%;
+}
+
+.quarry-title {
+  color: #620c0c;
+  margin: 20px;
+  font-family: 'Crimson Pro', serif;
+  text-align: center;
+}
+
+.chapter-page-container {
+  padding-bottom: 256px;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.chapter-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 128px;
+  animation: fade-in 1s;
+}
+
+.chapter-page-prompt-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  color: #0a6eb3;
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  cursor: pointer;
+}
